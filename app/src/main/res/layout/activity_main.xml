@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/profile_picture"
+        style="@style/ViewStyle"
+        android:contentDescription="@string/cont_desc" />
+
+    <TextView
+        android:id="@+id/name"
+        style="@style/ViewStyle.text"
+        android:layout_below="@id/profile_picture"/>
+
+    <TextView
+        android:id="@+id/birthday"
+        style="@style/ViewStyle.text"
+        android:layout_below="@id/name"/>
+
+    <TextView
+        android:id="@+id/country"
+        style="@style/ViewStyle.text"
+        android:layout_below="@id/birthday"/>
+
+</RelativeLayout>

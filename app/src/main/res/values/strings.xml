@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">User Profile</string>
+    <string name="user_name">Heather</string>
+    <string name="birthday">November 15</string>
+    <string name="country">United States</string>
+    <string name="cont_desc">Image of Heather</string>
+</resources>
